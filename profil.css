@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}   
+
+nav p{
+    color: white;
+    margin-left: 30px;
+}
+
+nav ul li{
+    display: flex;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    list-style: none;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+nav ul :hover{
+    color: #7fadf1;
+}
+
+nav li a{
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+}
+
+.p{
+    text-align: center;
+}
+
+marquee{
+  color: white;
+  background-color: rgb(9, 10, 10);
+  font-family: sans-serif;
+}
+
+
+.footer {
+    background-color: #0a1333;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  /* Konten footer */
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  /* Styling logo sekolah */
+  .footer-logo img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Styling untuk bagian logo dan hak cipta */
+  .footer-logo p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Styling informasi kontak */
+  .footer-contact {
+    text-align: right;
+    flex: 1;
+    margin-top: 10px;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer-socials {
+    margin-top: 10px;
+  }
+  
+  .footer-socials a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .footer-socials a:hover {
+    color: #1e90ff;
+  }
+  
+  /* Responsif untuk layar kecil */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-contact {
+      text-align: center;
+    }
+  }
